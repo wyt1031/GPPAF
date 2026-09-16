@@ -1,0 +1,29 @@
+{
+  "record_type": "path_benchmark_protocol",
+  "note": "Fixed parameters for the 100-case PA-HGTS benchmark and the five comparison methods.",
+  "seed": 2026,
+  "beam_width": 16,
+  "failure_penalty": 1000.0,
+  "lambda_cost": 1.0,
+  "lambda_bound": 0.1,
+  "local_cost_weight_gamma": 1.0,
+  "local_search": {
+    "rounds": 2,
+    "top_edges": 8
+  },
+  "aco": {
+    "ants": 6,
+    "iterations": 5,
+    "evaporation": 0.2
+  },
+  "methods": [
+    "NN",
+    "ACO",
+    "G-beam",
+    "P-beam",
+    "R-GLS",
+    "PA-HGTS"
+  ],
+  "instances": "data/path_validation_100.json",
+  "checkpoint_interface": "scripts/benchmark_paths.py --checkpoint <PA-HGTS checkpoint compatible with gppaf.hgts.PAHGTS>"
+}

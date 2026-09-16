@@ -1,0 +1,7 @@
+# Supported reviewer environment (Python >=3.11)
+numpy>=2.0,<3
+scipy>=1.11,<2
+torch>=2.3,<3
+shapely>=2,<3
+scikit-learn>=1.4,<2
+pytest>=8,<10

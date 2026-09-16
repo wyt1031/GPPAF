@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "file": "raw/single_factor.csv",
+      "original_name": "单层单因素100组数据.csv",
+      "rows": 100,
+      "sha256": "79e1d8c268b13705311099ca5831124af2d640d652d510b8070f311d987774e7",
+      "provenance": "Source process table included with the GPPAF research package"
+    },
+    {
+      "file": "raw/single_orthogonal.csv",
+      "original_name": "单层正交100组数据.csv",
+      "rows": 100,
+      "sha256": "d839a95b057d8f72919b15cc094bc02b6794487f10619566ffd43cdc07845737",
+      "provenance": "Source process table included with the GPPAF research package"
+    },
+    {
+      "file": "raw/multi_mean.csv",
+      "original_name": "多层正交响应面数据.csv",
+      "rows": 250,
+      "sha256": "640689b5bb859360d72c3159ddb03f3ec50e2b34038104078242cf1f957a4504",
+      "provenance": "Source process table included with the GPPAF research package"
+    },
+    {
+      "file": "raw/layer_partial.csv",
+      "original_name": "多层单因素数据.csv",
+      "rows": 1050,
+      "sha256": "ec481c073e79bdc1297bb24983e1fb29e4f9a7dfd3c6c4e23411579e1e32cb42",
+      "provenance": "Source process table included with the GPPAF research package"
+    }
+  ],
+  "layer_status": "complete: 105 process conditions x 10 layers are available in data/processed/layers.csv",
+  "units": {
+    "current": "A",
+    "speed": "cm/min",
+    "frequency": "Hz",
+    "amplitude": "mm",
+    "cooling": "s",
+    "geometry": "mm"
+  }
+}

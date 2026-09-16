@@ -1,0 +1,54 @@
+{
+  "protocol": "Explicit layerwise parameter metadata map for the v12 single-factor table",
+  "fixed_by_factor": {
+    "Welding current": {
+      "current_A": 80.0,
+      "speed_cm_min": 26.0,
+      "frequency_Hz": 3.0,
+      "amplitude_mm": 3.0,
+      "cooling_s": 60.0
+    },
+    "Welding speed": {
+      "current_A": 80.0,
+      "speed_cm_min": 26.0,
+      "frequency_Hz": 3.0,
+      "amplitude_mm": 3.0,
+      "cooling_s": 60.0
+    },
+    "Weaving frequency": {
+      "current_A": 80.0,
+      "speed_cm_min": 26.0,
+      "frequency_Hz": 3.0,
+      "amplitude_mm": 3.0,
+      "cooling_s": 60.0
+    },
+    "Weaving amplitude": {
+      "current_A": 80.0,
+      "speed_cm_min": 26.0,
+      "frequency_Hz": 3.0,
+      "amplitude_mm": 3.0,
+      "cooling_s": 60.0
+    },
+    "Cooling time": {
+      "current_A": 80.0,
+      "speed_cm_min": 26.0,
+      "frequency_Hz": 3.0,
+      "amplitude_mm": 3.0,
+      "cooling_s": 60.0
+    }
+  },
+  "notes": [
+    "The raw layerwise table records analysis factor, layer number, varied X value, width and height; this file makes the factor-to-full-parameter mapping explicit for model supervision.",
+    "For each single-factor sweep, the named factor replaces its fixed value.",
+    "The common single-factor base setting is 80 A, 26 cm/min, 3 Hz and 3 mm.",
+    "The current/speed/frequency/amplitude layerwise sweeps use 60 s interpass cooling, consistent with the v12 layerwise figure protocol.",
+    "The processed layer table preserves row-level lineage to data/raw/layer_partial.csv so every geometry value and varied X value can be audited directly."
+  ],
+  "evidence_basis": {
+    "common_base_setting": "80 A, 26 cm/min, 3 Hz, 3 mm from the supplied single-factor process-design records",
+    "current_speed_frequency_amplitude_cooling": "60 s from the v12 layerwise figure protocol",
+    "cooling_sweep": "the cooling-time column is varied directly from the v12 layerwise table; the non-varied parameters use the common single-factor base setting"
+  },
+  "condition_metadata": "data/processed/layer_condition_metadata.csv",
+  "settings_file": "data/layer_settings.json"
+}

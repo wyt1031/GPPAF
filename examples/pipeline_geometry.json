@@ -1,0 +1,80 @@
+{
+  "provenance": "Example 75 mm square geometry with one internal hole for the integrated pipeline interface",
+  "outer": [
+    [
+      -12.5,
+      -12.5
+    ],
+    [
+      62.5,
+      -12.5
+    ],
+    [
+      62.5,
+      62.5
+    ],
+    [
+      -12.5,
+      62.5
+    ]
+  ],
+  "holes": [
+    [
+      [
+        20,
+        20
+      ],
+      [
+        30,
+        20
+      ],
+      [
+        30,
+        30
+      ],
+      [
+        20,
+        30
+      ]
+    ]
+  ],
+  "points": [
+    [
+      0,
+      0
+    ],
+    [
+      25,
+      0
+    ],
+    [
+      50,
+      0
+    ],
+    [
+      0,
+      25
+    ],
+    [
+      50,
+      25
+    ],
+    [
+      0,
+      50
+    ],
+    [
+      25,
+      50
+    ],
+    [
+      50,
+      50
+    ]
+  ],
+  "fill_rate": 1.0,
+  "k_neighbors": 8,
+  "max_scale": 4.0,
+  "start": 0,
+  "end": 3
+}

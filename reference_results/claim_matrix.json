@@ -1,0 +1,36 @@
+{
+  "manuscript_sha256": "01c967c44d28fe4c9c48359c31cf25bb57a7638dfeeb7a4905683c7964c64f12",
+  "release_version": "1.4.5",
+  "claims": [
+    {
+      "claim": "TC-DSFNet Best-of-M parameter error",
+      "manuscript": "2.82% single; 6.59% multilayer",
+      "release_evidence": "v1.4.5 Eq. (6) implementation and regression test plus regenerated executable training example; archived v1.4.4 grouped five-fold artifacts are retained with explicit implementation-version metadata (2.637% / 5.516%)",
+      "status": "current implementation verified; archived five-fold artifacts version-labelled for traceability"
+    },
+    {
+      "claim": "24.2% average parameter-error reduction vs best comparison",
+      "manuscript": "24.2%",
+      "release_evidence": "manuscript reference table, arithmetic check, and six-method executable benchmark driver included",
+      "status": "claim traceability and executable comparison pipeline included"
+    },
+    {
+      "claim": "PA-HGTS 100% feasible-path success on 100 Fig. 10 instances",
+      "manuscript": "100/100",
+      "release_evidence": "fixed 100-case evaluation input, six-method benchmark implementation, protocol configuration, failure accounting and statistical export are included; a separate compact PA-HGTS training-reference run supports executable code inspection",
+      "status": "100-case benchmark input and executable evaluation pipeline included"
+    },
+    {
+      "claim": "PA-LCCS constrained local G2 smoothing",
+      "manuscript": "Algorithm 1 / Eqs. 38-40",
+      "release_evidence": "implementation, tests and saved feasible smoothing certificate included",
+      "status": "executable evidence included"
+    },
+    {
+      "claim": "HELS-DP two-level geometry-aware dynamic programming",
+      "manuscript": "Eqs. 41-45 / Algorithm 2",
+      "release_evidence": "state enumeration, geometry-labelled DP, interlayer DP and backtracking tests/examples included",
+      "status": "executable evidence included"
+    }
+  ]
+}

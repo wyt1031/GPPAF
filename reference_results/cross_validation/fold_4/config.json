@@ -1,0 +1,17 @@
+{
+  "data": "data/processed",
+  "output": "reference_results/cross_validation/fold_4",
+  "epochs": 100,
+  "fold": 4,
+  "folds": 5,
+  "seed": 2026,
+  "hidden": 64,
+  "context": 32,
+  "lr": 0.001,
+  "candidates": 256,
+  "bootstrap": 1000,
+  "threads": 1,
+  "ablation": "full",
+  "artifact_implementation_version": "1.4.4",
+  "artifact_status": "Archived pre-v1.4.5 Eq. (6) normalization-correction artifact."
+}

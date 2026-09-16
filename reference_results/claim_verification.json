@@ -1,0 +1,238 @@
+{
+  "checks": {
+    "source_data_hashes": true,
+    "layerwise_105x10": true,
+    "layerwise_row_lineage": true,
+    "layer_condition_metadata_105": true,
+    "path_validation_100": true,
+    "figure7_reference_arithmetic": true,
+    "figure7_protocol_M256": true,
+    "process_cv_five_folds": true,
+    "path_example_six_methods": true,
+    "path_example_pa_hgts_execution": true
+  },
+  "publication_reference": {
+    "manuscript_claims": {
+      "source_document": {
+        "title": "GPPAF: Geometry-Driven Process\u2013Path Co-Design and Automation for Wire Arc Additive Manufacturing of Multi-Hole Components",
+        "sha256": "01c967c44d28fe4c9c48359c31cf25bb57a7638dfeeb7a4905683c7964c64f12"
+      },
+      "figure7_process_design": {
+        "protocol": "five-fold cross-validation grouped by process condition; common Best-of-M normalized parameter error",
+        "tc_dsfnet_single_percent": 2.82,
+        "tc_dsfnet_multi_percent": 6.59,
+        "relative_reduction_vs_best_comparison_percent": 24.2,
+        "candidate_count_M": 256,
+        "candidate_count_scope": "release evaluation for generative methods; M is the candidate count in manuscript Eq. (9)"
+      },
+      "figure10_path_planning": {
+        "test_instances": 100,
+        "variation": [
+          "cross-sectional shape",
+          "number of points",
+          "grid phase"
+        ],
+        "methods": [
+          "NN",
+          "Constrained ACO",
+          "G-beam",
+          "P-beam",
+          "R-GLS",
+          "PA-HGTS"
+        ],
+        "pa_hgts_reported_feasible_success_percent": 100.0
+      },
+      "overall_path_result": {
+        "reported_effective_fill_rate_percent": 98.2
+      },
+      "use": "Publication-reference metadata for reviewer alignment. Executable verification results are reported alongside these manuscript values."
+    },
+    "figure7": {
+      "metric": "Best-of-M normalized parameter error (%)",
+      "grouped_folds": 5,
+      "methods": {
+        "RSM": {
+          "single": 14.69,
+          "multi": 24.46,
+          "mean": 19.575
+        },
+        "SVR": {
+          "single": 14.37,
+          "multi": 28.03,
+          "mean": 21.2
+        },
+        "RF": {
+          "single": 13.7,
+          "multi": 26.02,
+          "mean": 19.86
+        },
+        "cVAE": {
+          "single": 5.54,
+          "multi": 7.94,
+          "mean": 6.74
+        },
+        "Affine-cINN": {
+          "single": 4.44,
+          "multi": 7.97,
+          "mean": 6.205
+        },
+        "TC-DSFNet": {
+          "single": 2.82,
+          "multi": 6.59,
+          "mean": 4.705
+        }
+      },
+      "best_comparison_method": "Affine-cINN",
+      "best_comparison_mean_percent": 6.205,
+      "tc_dsfnet_mean_percent": 4.705,
+      "relative_reduction_percent": 24.174053182917003,
+      "reported_reduction_percent_rounded": 24.2,
+      "source": "Values reported in manuscript Figure 7 / Section 2.3; use benchmark_process_cv.py for executable baseline verification.",
+      "protocol_note": "The release evaluation fixes M=256 for cVAE, Affine-cINN and TC-DSFNet; the final English manuscript defines the common Best-of-M protocol and uses M as the candidate-count symbol.",
+      "candidate_count_M": 256,
+      "record_type": "manuscript_reported_reference"
+    }
+  },
+  "computed_results": {
+    "source_table_rows": {
+      "single_factor.csv": 100,
+      "single_orthogonal.csv": 100,
+      "multi_mean.csv": 250,
+      "layer_partial.csv": 1050
+    },
+    "layerwise": {
+      "rows": 1050,
+      "conditions": 105,
+      "layers_per_condition": 10,
+      "condition_metadata_rows": 105
+    },
+    "path_validation_structure": {
+      "instances": 100,
+      "node_count_min": 56,
+      "node_count_max": 96,
+      "cross_section_families": 3,
+      "grid_phases": 12
+    },
+    "process_cv": {
+      "single": {
+        "mean_best_of_m_percent": 2.6371506974101067,
+        "fold_best_of_m_percent": [
+          2.613571658730507,
+          2.48784851282835,
+          2.782064490020275,
+          2.857651934027672,
+          2.4446168914437294
+        ],
+        "folds": 5
+      },
+      "multi": {
+        "mean_best_of_m_percent": 5.51626555621624,
+        "fold_best_of_m_percent": [
+          5.893177911639214,
+          5.247829854488373,
+          5.367699638009071,
+          5.5140722543001175,
+          5.558548122644424
+        ],
+        "folds": 5
+      },
+      "artifact_implementation_version": "1.4.4",
+      "artifact_status": "Archived pre-v1.4.5 Eq. (6) normalization-correction verification artifacts; retained for traceability and not presented as outputs of the v1.4.5 implementation."
+    },
+    "path_benchmark_example": {
+      "NN": {
+        "total_instances": 8,
+        "feasible_instances": 5,
+        "success_rate": 0.625,
+        "mean_penalized_objective": 375.927470739032,
+        "mean_path_length": 11.731370849898477,
+        "mean_turn_metric": 0.2726236263736264,
+        "mean_boundary_deviation": 0.0,
+        "mean_spacing_deviation": 17.928427124746186,
+        "mean_heat_accumulation": 36.65134246278797,
+        "mean_coverage": 0.36055241901869295,
+        "total_seconds": 0.030910590998246334
+      },
+      "ACO": {
+        "total_instances": 8,
+        "feasible_instances": 6,
+        "success_rate": 0.75,
+        "mean_penalized_objective": 251.0847486942289,
+        "mean_path_length": 10.67851130197758,
+        "mean_turn_metric": 0.27474284984448427,
+        "mean_boundary_deviation": 0.0,
+        "mean_spacing_deviation": 16.362944921610612,
+        "mean_heat_accumulation": 28.755529767276403,
+        "mean_coverage": 0.35735055423811746,
+        "total_seconds": 0.8263381909964664
+      },
+      "G-beam": {
+        "total_instances": 8,
+        "feasible_instances": 7,
+        "success_rate": 0.875,
+        "mean_penalized_objective": 126.31122411871263,
+        "mean_path_length": 11.81827458019398,
+        "mean_turn_metric": 0.2703152998667008,
+        "mean_boundary_deviation": 0.0,
+        "mean_spacing_deviation": 18.259972164770662,
+        "mean_heat_accumulation": 35.04544408430964,
+        "mean_coverage": 0.36025136230078697,
+        "total_seconds": 1.4484701369983668
+      },
+      "P-beam": {
+        "total_instances": 8,
+        "feasible_instances": 7,
+        "success_rate": 0.875,
+        "mean_penalized_objective": 126.31084377450095,
+        "mean_path_length": 11.81827458019398,
+        "mean_turn_metric": 0.2703152998667008,
+        "mean_boundary_deviation": 0.0,
+        "mean_spacing_deviation": 18.259972164770662,
+        "mean_heat_accumulation": 34.99328259242388,
+        "mean_coverage": 0.3602513623007869,
+        "total_seconds": 1.4352104110002983
+      },
+      "R-GLS": {
+        "total_instances": 8,
+        "feasible_instances": 7,
+        "success_rate": 0.875,
+        "mean_penalized_objective": 126.30994209533262,
+        "mean_path_length": 11.81827458019398,
+        "mean_turn_metric": 0.27477958558098653,
+        "mean_boundary_deviation": 0.0,
+        "mean_spacing_deviation": 18.259972164770662,
+        "mean_heat_accumulation": 34.77491167803479,
+        "mean_coverage": 0.35987802647676503,
+        "total_seconds": 1.606388483001865
+      },
+      "PA-HGTS": {
+        "total_instances": 8,
+        "feasible_instances": 8,
+        "success_rate": 1.0,
+        "mean_penalized_objective": 1.5220347223667463,
+        "mean_path_length": 12.61243686707646,
+        "mean_turn_metric": 0.25258491516114095,
+        "mean_boundary_deviation": 0.0,
+        "mean_spacing_deviation": 19.281092167691142,
+        "mean_heat_accumulation": 41.92707180940602,
+        "mean_coverage": 0.36128313836544323,
+        "total_seconds": 1.9641708670042135
+      }
+    }
+  },
+  "alignment": {
+    "tc_dsfnet_verification_vs_manuscript": {
+      "single": {
+        "publication_percent": 2.82,
+        "verification_run_percent": 2.6371506974101067,
+        "difference_percentage_points": -0.18284930258989318
+      },
+      "multi": {
+        "publication_percent": 6.59,
+        "verification_run_percent": 5.51626555621624,
+        "difference_percentage_points": -1.07373444378376
+      },
+      "note": "Manuscript reference values are retained separately. The packaged five-fold artifacts are explicitly version-labelled and are not presented as outputs of the current implementation."
+    }
+  }
+}

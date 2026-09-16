@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying GPPAF manuscript and specify the release/commit used."
+title: "GPPAF research source code"
+type: software
+version: 1.4.5
+date-released: 2026-09-16
+authors:
+  - family-names: Wang
+    given-names: Xiaoqi
+  - family-names: Zhang
+    given-names: Hao
+  - family-names: Zhang
+    given-names: Huajun
+  - family-names: Xu
+    given-names: Yanling
+  - family-names: Zhu
+    given-names: Mingliang
+license: MIT
+abstract: "Research implementation of TC-DSFNet, PA-HGTS, PA-LCCS and HELS-DP for the Geometry–Process–Path–Automation Framework (GPPAF)."
