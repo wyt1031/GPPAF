@@ -1,0 +1,872 @@
+[
+  {
+    "instance": 0,
+    "instance_id": "0",
+    "method": "NN",
+    "path": [
+      0,
+      1,
+      2,
+      5,
+      4,
+      3,
+      6,
+      7,
+      8
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 0,
+    "instance_id": "0",
+    "method": "ACO",
+    "path": [
+      0,
+      3,
+      6,
+      7,
+      4,
+      1,
+      2,
+      5,
+      8
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 0,
+    "instance_id": "0",
+    "method": "G-beam",
+    "path": [
+      0,
+      1,
+      2,
+      5,
+      4,
+      3,
+      6,
+      7,
+      8
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 0,
+    "instance_id": "0",
+    "method": "P-beam",
+    "path": [
+      0,
+      1,
+      2,
+      5,
+      4,
+      3,
+      6,
+      7,
+      8
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 0,
+    "instance_id": "0",
+    "method": "R-GLS",
+    "path": [
+      0,
+      1,
+      2,
+      5,
+      4,
+      3,
+      6,
+      7,
+      8
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 0,
+    "instance_id": "0",
+    "method": "PA-HGTS",
+    "path": [
+      0,
+      3,
+      6,
+      7,
+      4,
+      1,
+      2,
+      5,
+      8
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 1,
+    "instance_id": "1",
+    "method": "NN",
+    "path": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      6,
+      5,
+      3
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 1,
+    "instance_id": "1",
+    "method": "ACO",
+    "path": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      6,
+      5,
+      3
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 1,
+    "instance_id": "1",
+    "method": "G-beam",
+    "path": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      6,
+      5,
+      3
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 1,
+    "instance_id": "1",
+    "method": "P-beam",
+    "path": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      6,
+      5,
+      3
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 1,
+    "instance_id": "1",
+    "method": "R-GLS",
+    "path": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      6,
+      5,
+      3
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 1,
+    "instance_id": "1",
+    "method": "PA-HGTS",
+    "path": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      6,
+      5,
+      3
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 2,
+    "instance_id": "2",
+    "method": "NN",
+    "path": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      6,
+      5,
+      4,
+      8,
+      9,
+      10,
+      11
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 2,
+    "instance_id": "2",
+    "method": "ACO",
+    "path": [
+      0,
+      4,
+      8,
+      9,
+      10,
+      6,
+      5,
+      1,
+      2,
+      3,
+      7,
+      11
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 2,
+    "instance_id": "2",
+    "method": "G-beam",
+    "path": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      6,
+      5,
+      4,
+      8,
+      9,
+      10,
+      11
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 2,
+    "instance_id": "2",
+    "method": "P-beam",
+    "path": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      6,
+      5,
+      4,
+      8,
+      9,
+      10,
+      11
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 2,
+    "instance_id": "2",
+    "method": "R-GLS",
+    "path": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      6,
+      5,
+      4,
+      8,
+      9,
+      10,
+      11
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 2,
+    "instance_id": "2",
+    "method": "PA-HGTS",
+    "path": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      6,
+      5,
+      4,
+      8,
+      9,
+      10,
+      11
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 3,
+    "instance_id": "3",
+    "method": "NN",
+    "path": null,
+    "status": "search_failed"
+  },
+  {
+    "instance": 3,
+    "instance_id": "3",
+    "method": "ACO",
+    "path": [
+      0,
+      4,
+      7,
+      8,
+      9,
+      5,
+      1,
+      2,
+      3,
+      6,
+      10
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 3,
+    "instance_id": "3",
+    "method": "G-beam",
+    "path": [
+      0,
+      4,
+      7,
+      8,
+      9,
+      5,
+      1,
+      2,
+      3,
+      6,
+      10
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 3,
+    "instance_id": "3",
+    "method": "P-beam",
+    "path": [
+      0,
+      4,
+      7,
+      8,
+      9,
+      5,
+      1,
+      2,
+      3,
+      6,
+      10
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 3,
+    "instance_id": "3",
+    "method": "R-GLS",
+    "path": [
+      0,
+      4,
+      7,
+      8,
+      9,
+      5,
+      1,
+      2,
+      3,
+      6,
+      10
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 3,
+    "instance_id": "3",
+    "method": "PA-HGTS",
+    "path": [
+      0,
+      4,
+      7,
+      8,
+      9,
+      5,
+      1,
+      2,
+      3,
+      6,
+      10
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 4,
+    "instance_id": "4",
+    "method": "NN",
+    "path": null,
+    "status": "search_failed"
+  },
+  {
+    "instance": 4,
+    "instance_id": "4",
+    "method": "ACO",
+    "path": [
+      0,
+      5,
+      8,
+      9,
+      10,
+      11,
+      6,
+      1,
+      2,
+      3,
+      4,
+      7,
+      12
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 4,
+    "instance_id": "4",
+    "method": "G-beam",
+    "path": [
+      0,
+      5,
+      8,
+      9,
+      10,
+      11,
+      6,
+      1,
+      2,
+      3,
+      4,
+      7,
+      12
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 4,
+    "instance_id": "4",
+    "method": "P-beam",
+    "path": [
+      0,
+      5,
+      8,
+      9,
+      10,
+      11,
+      6,
+      1,
+      2,
+      3,
+      4,
+      7,
+      12
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 4,
+    "instance_id": "4",
+    "method": "R-GLS",
+    "path": [
+      0,
+      5,
+      8,
+      9,
+      10,
+      11,
+      6,
+      1,
+      2,
+      3,
+      4,
+      7,
+      12
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 4,
+    "instance_id": "4",
+    "method": "PA-HGTS",
+    "path": [
+      0,
+      5,
+      8,
+      9,
+      10,
+      11,
+      6,
+      1,
+      2,
+      3,
+      4,
+      7,
+      12
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 5,
+    "instance_id": "5",
+    "method": "NN",
+    "path": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      5,
+      9,
+      8,
+      4,
+      7,
+      11,
+      12,
+      13,
+      10,
+      14
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 5,
+    "instance_id": "5",
+    "method": "ACO",
+    "path": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      10,
+      5,
+      9,
+      8,
+      4,
+      7,
+      11,
+      12,
+      13,
+      14
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 5,
+    "instance_id": "5",
+    "method": "G-beam",
+    "path": [
+      0,
+      4,
+      8,
+      7,
+      11,
+      12,
+      13,
+      9,
+      5,
+      1,
+      2,
+      3,
+      6,
+      10,
+      14
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 5,
+    "instance_id": "5",
+    "method": "P-beam",
+    "path": [
+      0,
+      1,
+      5,
+      2,
+      3,
+      6,
+      10,
+      9,
+      8,
+      4,
+      7,
+      11,
+      12,
+      13,
+      14
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 5,
+    "instance_id": "5",
+    "method": "R-GLS",
+    "path": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      5,
+      10,
+      9,
+      8,
+      4,
+      7,
+      11,
+      12,
+      13,
+      14
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 5,
+    "instance_id": "5",
+    "method": "PA-HGTS",
+    "path": [
+      0,
+      4,
+      7,
+      11,
+      12,
+      8,
+      13,
+      9,
+      5,
+      1,
+      2,
+      3,
+      6,
+      10,
+      14
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 6,
+    "instance_id": "6",
+    "method": "NN",
+    "path": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8,
+      7,
+      6,
+      11,
+      10,
+      5,
+      9,
+      13,
+      14,
+      15,
+      16,
+      12,
+      17
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 6,
+    "instance_id": "6",
+    "method": "ACO",
+    "path": null,
+    "status": "search_failed"
+  },
+  {
+    "instance": 6,
+    "instance_id": "6",
+    "method": "G-beam",
+    "path": [
+      0,
+      5,
+      10,
+      9,
+      13,
+      14,
+      15,
+      16,
+      11,
+      7,
+      6,
+      1,
+      2,
+      3,
+      4,
+      8,
+      12,
+      17
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 6,
+    "instance_id": "6",
+    "method": "P-beam",
+    "path": [
+      0,
+      5,
+      9,
+      13,
+      14,
+      15,
+      16,
+      11,
+      10,
+      6,
+      1,
+      2,
+      7,
+      3,
+      4,
+      8,
+      12,
+      17
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 6,
+    "instance_id": "6",
+    "method": "R-GLS",
+    "path": [
+      0,
+      5,
+      9,
+      13,
+      14,
+      10,
+      15,
+      16,
+      11,
+      6,
+      1,
+      2,
+      7,
+      3,
+      4,
+      8,
+      12,
+      17
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 6,
+    "instance_id": "6",
+    "method": "PA-HGTS",
+    "path": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8,
+      12,
+      7,
+      6,
+      11,
+      10,
+      5,
+      9,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "status": "feasible"
+  },
+  {
+    "instance": 7,
+    "instance_id": "7",
+    "method": "NN",
+    "path": null,
+    "status": "search_failed"
+  },
+  {
+    "instance": 7,
+    "instance_id": "7",
+    "method": "ACO",
+    "path": null,
+    "status": "search_failed"
+  },
+  {
+    "instance": 7,
+    "instance_id": "7",
+    "method": "G-beam",
+    "path": null,
+    "status": "search_failed"
+  },
+  {
+    "instance": 7,
+    "instance_id": "7",
+    "method": "P-beam",
+    "path": null,
+    "status": "search_failed"
+  },
+  {
+    "instance": 7,
+    "instance_id": "7",
+    "method": "R-GLS",
+    "path": null,
+    "status": "search_failed"
+  },
+  {
+    "instance": 7,
+    "instance_id": "7",
+    "method": "PA-HGTS",
+    "path": [
+      0,
+      5,
+      10,
+      15,
+      16,
+      17,
+      18,
+      13,
+      8,
+      7,
+      12,
+      11,
+      6,
+      1,
+      2,
+      3,
+      4,
+      9,
+      14,
+      19
+    ],
+    "status": "feasible"
+  }
+]

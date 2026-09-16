@@ -1,0 +1,45 @@
+{
+  "metric": "Best-of-M normalized parameter error (%)",
+  "grouped_folds": 5,
+  "methods": {
+    "RSM": {
+      "single": 14.69,
+      "multi": 24.46,
+      "mean": 19.575
+    },
+    "SVR": {
+      "single": 14.37,
+      "multi": 28.03,
+      "mean": 21.2
+    },
+    "RF": {
+      "single": 13.7,
+      "multi": 26.02,
+      "mean": 19.86
+    },
+    "cVAE": {
+      "single": 5.54,
+      "multi": 7.94,
+      "mean": 6.74
+    },
+    "Affine-cINN": {
+      "single": 4.44,
+      "multi": 7.97,
+      "mean": 6.205
+    },
+    "TC-DSFNet": {
+      "single": 2.82,
+      "multi": 6.59,
+      "mean": 4.705
+    }
+  },
+  "best_comparison_method": "Affine-cINN",
+  "best_comparison_mean_percent": 6.205,
+  "tc_dsfnet_mean_percent": 4.705,
+  "relative_reduction_percent": 24.174053182917003,
+  "reported_reduction_percent_rounded": 24.2,
+  "source": "Values reported in manuscript Figure 7 / Section 2.3; use benchmark_process_cv.py for executable baseline verification.",
+  "protocol_note": "The release evaluation fixes M=256 for cVAE, Affine-cINN and TC-DSFNet; the final English manuscript defines the common Best-of-M protocol and uses M as the candidate-count symbol.",
+  "candidate_count_M": 256,
+  "record_type": "manuscript_reported_reference"
+}

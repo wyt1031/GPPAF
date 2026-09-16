@@ -1,0 +1,19 @@
+{
+  "input": "data/path_validation_100.json",
+  "sha256": "f360b7a2498ba7573ff63c6f52f2f49465ad5902125d577bc432e28f87c16ae3",
+  "instances": 100,
+  "node_count_min": 56,
+  "node_count_max": 96,
+  "family_counts": {
+    "container": 33,
+    "multihole": 34,
+    "crosshole": 33
+  },
+  "scale_counts": {
+    "S": 33,
+    "M": 34,
+    "L": 33
+  },
+  "unique_grid_phases": 12,
+  "purpose": "Fixed 100-case evaluation input for PA-HGTS and comparison-method benchmarking."
+}

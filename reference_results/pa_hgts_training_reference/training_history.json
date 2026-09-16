@@ -1,0 +1,1790 @@
+[
+  {
+    "epoch": 1,
+    "case": 0,
+    "updated": true,
+    "loss": -0.4219321012496948,
+    "objective": 1.3473198009924408,
+    "baseline": 1.140526285512464,
+    "policy": -0.4938257932662964,
+    "regret": 0.7189368605613708,
+    "positive_labels": 3.0
+  },
+  {
+    "epoch": 1,
+    "case": 1,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 1,
+    "case": 2,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 1,
+    "case": 3,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 1,
+    "case": 4,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 1,
+    "case": 5,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 1,
+    "case": 6,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 1,
+    "case": 7,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 1,
+    "case": 8,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 1,
+    "case": 9,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 1,
+    "case": 10,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 1,
+    "case": 11,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 1,
+    "case": 12,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 1,
+    "case": 13,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 1,
+    "case": 14,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 1,
+    "case": 15,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 1,
+    "case": 16,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 1,
+    "case": 17,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 1,
+    "case": 18,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 1,
+    "case": 19,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 2,
+    "case": 0,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 2,
+    "case": 1,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 2,
+    "case": 2,
+    "updated": true,
+    "loss": -1.3835599422454834,
+    "objective": 1.6014631619503064,
+    "baseline": 1.312418687053223,
+    "policy": -1.4551624059677124,
+    "regret": 0.7160240411758423,
+    "positive_labels": 6.0
+  },
+  {
+    "epoch": 2,
+    "case": 3,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 2,
+    "case": 4,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 2,
+    "case": 5,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 2,
+    "case": 6,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 2,
+    "case": 7,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 2,
+    "case": 8,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 2,
+    "case": 9,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 2,
+    "case": 10,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 2,
+    "case": 11,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 2,
+    "case": 12,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 2,
+    "case": 13,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 2,
+    "case": 14,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 2,
+    "case": 15,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 2,
+    "case": 16,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 2,
+    "case": 17,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 2,
+    "case": 18,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 2,
+    "case": 19,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 3,
+    "case": 0,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 3,
+    "case": 1,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 3,
+    "case": 2,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 3,
+    "case": 3,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 3,
+    "case": 4,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 3,
+    "case": 5,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 3,
+    "case": 6,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 3,
+    "case": 7,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 3,
+    "case": 8,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 3,
+    "case": 9,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 3,
+    "case": 10,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 3,
+    "case": 11,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 3,
+    "case": 12,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 3,
+    "case": 13,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 3,
+    "case": 14,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 3,
+    "case": 15,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 3,
+    "case": 16,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 3,
+    "case": 17,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 3,
+    "case": 18,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 3,
+    "case": 19,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 4,
+    "case": 0,
+    "updated": true,
+    "loss": -0.33358824253082275,
+    "objective": 1.347322695044915,
+    "baseline": 1.140526285512464,
+    "policy": -0.40192174911499023,
+    "regret": 0.6833349466323853,
+    "positive_labels": 3.0
+  },
+  {
+    "epoch": 4,
+    "case": 1,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 4,
+    "case": 2,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 4,
+    "case": 3,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 4,
+    "case": 4,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 4,
+    "case": 5,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 4,
+    "case": 6,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 4,
+    "case": 7,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 4,
+    "case": 8,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 4,
+    "case": 9,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 4,
+    "case": 10,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 4,
+    "case": 11,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 4,
+    "case": 12,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 4,
+    "case": 13,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 4,
+    "case": 14,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 4,
+    "case": 15,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 4,
+    "case": 16,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 4,
+    "case": 17,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 4,
+    "case": 18,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 4,
+    "case": 19,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 5,
+    "case": 0,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 5,
+    "case": 1,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 5,
+    "case": 2,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 5,
+    "case": 3,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 5,
+    "case": 4,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 5,
+    "case": 5,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 5,
+    "case": 6,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 5,
+    "case": 7,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 5,
+    "case": 8,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 5,
+    "case": 9,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 5,
+    "case": 10,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 5,
+    "case": 11,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 5,
+    "case": 12,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 5,
+    "case": 13,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 5,
+    "case": 14,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 5,
+    "case": 15,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 5,
+    "case": 16,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 5,
+    "case": 17,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 5,
+    "case": 18,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 5,
+    "case": 19,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 6,
+    "case": 0,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 6,
+    "case": 1,
+    "updated": true,
+    "loss": -0.5798066854476929,
+    "objective": 1.3641892851833548,
+    "baseline": 1.140526285512464,
+    "policy": -0.637981653213501,
+    "regret": 0.5817497968673706,
+    "positive_labels": 5.0
+  },
+  {
+    "epoch": 6,
+    "case": 2,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 6,
+    "case": 3,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 6,
+    "case": 4,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 6,
+    "case": 5,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 6,
+    "case": 6,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 6,
+    "case": 7,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 6,
+    "case": 8,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 6,
+    "case": 9,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 6,
+    "case": 10,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 6,
+    "case": 11,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 6,
+    "case": 12,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 6,
+    "case": 13,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 6,
+    "case": 14,
+    "updated": true,
+    "loss": 0.03787260502576828,
+    "objective": 1.4635200246196713,
+    "baseline": 1.4497962818558743,
+    "policy": -0.0448739230632782,
+    "regret": 0.8274652361869812,
+    "positive_labels": 3.0
+  },
+  {
+    "epoch": 6,
+    "case": 15,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 6,
+    "case": 16,
+    "updated": true,
+    "loss": 0.11889422684907913,
+    "objective": 1.6700582091688811,
+    "baseline": 1.674547721880728,
+    "policy": 0.02285580523312092,
+    "regret": 0.96038419008255,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 6,
+    "case": 17,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 6,
+    "case": 18,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 6,
+    "case": 19,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 7,
+    "case": 0,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 7,
+    "case": 1,
+    "updated": true,
+    "loss": 0.08243343234062195,
+    "objective": 1.140526285512464,
+    "baseline": 1.140526285512464,
+    "policy": -0.0,
+    "regret": 0.8243343234062195,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 7,
+    "case": 2,
+    "updated": true,
+    "loss": 0.07305106520652771,
+    "objective": 1.312418687053223,
+    "baseline": 1.312418687053223,
+    "policy": -0.0,
+    "regret": 0.7305106520652771,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 7,
+    "case": 3,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 7,
+    "case": 4,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 7,
+    "case": 5,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 7,
+    "case": 6,
+    "updated": true,
+    "loss": 0.06337118148803711,
+    "objective": 1.465285074195071,
+    "baseline": 1.465285074195071,
+    "policy": -0.0,
+    "regret": 0.6337118148803711,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 7,
+    "case": 7,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 7,
+    "case": 8,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 7,
+    "case": 9,
+    "updated": true,
+    "loss": 0.053981341421604156,
+    "objective": 1.5913840062967117,
+    "baseline": 1.5913840062967117,
+    "policy": -0.0,
+    "regret": 0.5398133993148804,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 7,
+    "case": 10,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 7,
+    "case": 11,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 7,
+    "case": 12,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 7,
+    "case": 13,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 7,
+    "case": 14,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 7,
+    "case": 15,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 7,
+    "case": 16,
+    "updated": true,
+    "loss": 0.06982418894767761,
+    "objective": 1.6724623078304863,
+    "baseline": 1.674547721880728,
+    "policy": 0.0067492518573999405,
+    "regret": 0.6307493448257446,
+    "positive_labels": 4.0
+  },
+  {
+    "epoch": 7,
+    "case": 17,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 7,
+    "case": 18,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 7,
+    "case": 19,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 8,
+    "case": 0,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 8,
+    "case": 1,
+    "updated": true,
+    "loss": 0.04046260938048363,
+    "objective": 1.140526285512464,
+    "baseline": 1.140526285512464,
+    "policy": -0.0,
+    "regret": 0.4046260714530945,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 8,
+    "case": 2,
+    "updated": true,
+    "loss": 0.034617405384778976,
+    "objective": 1.312418687053223,
+    "baseline": 1.312418687053223,
+    "policy": -0.0,
+    "regret": 0.346174031496048,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 8,
+    "case": 3,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 8,
+    "case": 4,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 8,
+    "case": 5,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 8,
+    "case": 6,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 8,
+    "case": 7,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 8,
+    "case": 8,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 8,
+    "case": 9,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 8,
+    "case": 10,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 8,
+    "case": 11,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 8,
+    "case": 12,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 8,
+    "case": 13,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 8,
+    "case": 14,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 8,
+    "case": 15,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 8,
+    "case": 16,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 8,
+    "case": 17,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 8,
+    "case": 18,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 8,
+    "case": 19,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 9,
+    "case": 0,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 9,
+    "case": 1,
+    "updated": true,
+    "loss": 0.02991184964776039,
+    "objective": 1.140526285512464,
+    "baseline": 1.140526285512464,
+    "policy": -0.0,
+    "regret": 0.2991184890270233,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 9,
+    "case": 2,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 9,
+    "case": 3,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 9,
+    "case": 4,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 9,
+    "case": 5,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 9,
+    "case": 6,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 9,
+    "case": 7,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 9,
+    "case": 8,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 9,
+    "case": 9,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 9,
+    "case": 10,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 9,
+    "case": 11,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 9,
+    "case": 12,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 9,
+    "case": 13,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 9,
+    "case": 14,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 9,
+    "case": 15,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 9,
+    "case": 16,
+    "updated": true,
+    "loss": 0.06914686411619186,
+    "objective": 1.674547721880728,
+    "baseline": 1.674547721880728,
+    "policy": -0.0,
+    "regret": 0.6914685964584351,
+    "positive_labels": 5.0
+  },
+  {
+    "epoch": 9,
+    "case": 17,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 9,
+    "case": 18,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 9,
+    "case": 19,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 10,
+    "case": 0,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 10,
+    "case": 1,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 10,
+    "case": 2,
+    "updated": true,
+    "loss": 0.02305746264755726,
+    "objective": 1.312418687053223,
+    "baseline": 1.312418687053223,
+    "policy": -0.0,
+    "regret": 0.2305746227502823,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 10,
+    "case": 3,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 10,
+    "case": 4,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 10,
+    "case": 5,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 10,
+    "case": 6,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 10,
+    "case": 7,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 10,
+    "case": 8,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 10,
+    "case": 9,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 10,
+    "case": 10,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 10,
+    "case": 11,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 10,
+    "case": 12,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 10,
+    "case": 13,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 10,
+    "case": 14,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 10,
+    "case": 15,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 10,
+    "case": 16,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 10,
+    "case": 17,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 10,
+    "case": 18,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 10,
+    "case": 19,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 11,
+    "case": 0,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 11,
+    "case": 1,
+    "updated": true,
+    "loss": 0.0206630639731884,
+    "objective": 1.140526285512464,
+    "baseline": 1.140526285512464,
+    "policy": -0.0,
+    "regret": 0.2066306322813034,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 11,
+    "case": 2,
+    "updated": true,
+    "loss": 0.018558219075202942,
+    "objective": 1.312418687053223,
+    "baseline": 1.312418687053223,
+    "policy": -0.0,
+    "regret": 0.18558219075202942,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 11,
+    "case": 3,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 11,
+    "case": 4,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 11,
+    "case": 5,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 11,
+    "case": 6,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 11,
+    "case": 7,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 11,
+    "case": 8,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 11,
+    "case": 9,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 11,
+    "case": 10,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 11,
+    "case": 11,
+    "updated": true,
+    "loss": 0.0173452440649271,
+    "objective": 1.449813225306349,
+    "baseline": 1.449813225306349,
+    "policy": -0.0,
+    "regret": 0.1734524369239807,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 11,
+    "case": 12,
+    "updated": true,
+    "loss": 0.015672137960791588,
+    "objective": 1.4497962818558743,
+    "baseline": 1.4497962818558743,
+    "policy": -0.0,
+    "regret": 0.15672138333320618,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 11,
+    "case": 13,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 11,
+    "case": 14,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 11,
+    "case": 15,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 11,
+    "case": 16,
+    "updated": true,
+    "loss": 0.08160453289747238,
+    "objective": 1.674547721880728,
+    "baseline": 1.674547721880728,
+    "policy": -0.0,
+    "regret": 0.816045343875885,
+    "positive_labels": 5.0
+  },
+  {
+    "epoch": 11,
+    "case": 17,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 11,
+    "case": 18,
+    "updated": true,
+    "loss": 0.013195792213082314,
+    "objective": 1.570659281340565,
+    "baseline": 1.570659281340565,
+    "policy": -0.0,
+    "regret": 0.13195791840553284,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 11,
+    "case": 19,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 12,
+    "case": 0,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 12,
+    "case": 1,
+    "updated": true,
+    "loss": 0.01209480594843626,
+    "objective": 1.140526285512464,
+    "baseline": 1.140526285512464,
+    "policy": -0.0,
+    "regret": 0.12094805389642715,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 12,
+    "case": 2,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 12,
+    "case": 3,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 12,
+    "case": 4,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 12,
+    "case": 5,
+    "updated": true,
+    "loss": -0.37517645955085754,
+    "objective": 1.5925490389613068,
+    "baseline": 1.478691894122637,
+    "policy": -0.5210966467857361,
+    "regret": 1.4592018127441406,
+    "positive_labels": 7.0
+  },
+  {
+    "epoch": 12,
+    "case": 6,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 12,
+    "case": 7,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 12,
+    "case": 8,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 12,
+    "case": 9,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 12,
+    "case": 10,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 12,
+    "case": 11,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 12,
+    "case": 12,
+    "updated": true,
+    "loss": 0.011306795291602612,
+    "objective": 1.4497962818558743,
+    "baseline": 1.4497962818558743,
+    "policy": -0.0,
+    "regret": 0.11306794732809067,
+    "positive_labels": 0.0
+  },
+  {
+    "epoch": 12,
+    "case": 13,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 12,
+    "case": 14,
+    "updated": false,
+    "sampled_failed": false,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 12,
+    "case": 15,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  },
+  {
+    "epoch": 12,
+    "case": 16,
+    "updated": true,
+    "loss": 0.08988231420516968,
+    "objective": 1.6849668306456393,
+    "baseline": 1.674547721880728,
+    "policy": -0.05956333875656128,
+    "regret": 1.4944565296173096,
+    "positive_labels": 9.0
+  },
+  {
+    "epoch": 12,
+    "case": 17,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": false
+  },
+  {
+    "epoch": 12,
+    "case": 18,
+    "updated": true,
+    "loss": -0.40729841589927673,
+    "objective": 1.6661798417850442,
+    "baseline": 1.570659281340565,
+    "policy": -0.46817079186439514,
+    "regret": 0.6087237596511841,
+    "positive_labels": 3.0
+  },
+  {
+    "epoch": 12,
+    "case": 19,
+    "updated": false,
+    "sampled_failed": true,
+    "baseline_failed": true
+  }
+]

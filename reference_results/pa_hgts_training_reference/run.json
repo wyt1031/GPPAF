@@ -1,0 +1,40 @@
+{
+  "config": {
+    "epochs": 12,
+    "hidden": 32,
+    "seed": 2026,
+    "lr": 0.001,
+    "instances": "examples/pa_hgts_training.json",
+    "validation_instances": "examples/pa_hgts_validation.json",
+    "failure_penalty": 1000.0,
+    "regret_weight": 0.1,
+    "positive_regret_weight": 1.0,
+    "output": "reference_results/pa_hgts"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "system": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "processor": "",
+    "torch": "2.10.0+cpu",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "shapely": "2.1.2",
+    "sklearn": "1.8.0",
+    "cuda": false,
+    "torch_threads": 1
+  },
+  "elapsed_seconds": 10.388701357000173,
+  "updates": 27,
+  "attempts": 240,
+  "sampled_failures": 190,
+  "baseline_failures": 135,
+  "selected_epoch": 8,
+  "selection": "Validation: lowest failure count, then lowest mean penalized objective; earliest epoch on ties",
+  "train_cases": 20,
+  "validation_cases": 8,
+  "training_scope": "supplied train/validation JSON instances",
+  "regret_weight": 0.1,
+  "positive_regret_weight": 1.0,
+  "evaluation_scope": "Validation is used for model selection, not an independent test estimate",
+  "packaged_location": "reference_results/pa_hgts_training_reference"
+}

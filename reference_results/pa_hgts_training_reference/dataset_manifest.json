@@ -1,0 +1,267 @@
+{
+  "training": {
+    "file_name": "pa_hgts_training.json",
+    "file_sha256": "a377637e0f30f8896c424334840e1bd3f4aa66ba63e7a8426a443e940295ba83",
+    "instances": [
+      {
+        "id": "train_01",
+        "group_id": "train_geom_01",
+        "geometry_sha256": "bf214a3e439b8412dc00fb8a26850509739d5e3a494950453b448db259d48e83",
+        "nodes": 6,
+        "edges": 22,
+        "start": 0,
+        "end": 5
+      },
+      {
+        "id": "train_02",
+        "group_id": "train_geom_02",
+        "geometry_sha256": "af28c24702bd243e08b19bff1ba6d24c4793d5fd49c03d7d725effc5914768a8",
+        "nodes": 6,
+        "edges": 22,
+        "start": 0,
+        "end": 5
+      },
+      {
+        "id": "train_03",
+        "group_id": "train_geom_03",
+        "geometry_sha256": "ede4cebfa943d20b2537971e9d85540e524489d103c52e3d47647715bef86b19",
+        "nodes": 9,
+        "edges": 40,
+        "start": 0,
+        "end": 8
+      },
+      {
+        "id": "train_04",
+        "group_id": "train_geom_04",
+        "geometry_sha256": "c8bd22b4e45c1869e82c769e1b1dfe7d0314a4c9d41dd33c8f4972b9544ba81f",
+        "nodes": 8,
+        "edges": 32,
+        "start": 0,
+        "end": 7
+      },
+      {
+        "id": "train_05",
+        "group_id": "train_geom_05",
+        "geometry_sha256": "dc7bf8f6448814ccaa8fb067aaf8ba4ef99f877e6328689e3cfd85a542e4ac71",
+        "nodes": 8,
+        "edges": 32,
+        "start": 0,
+        "end": 7
+      },
+      {
+        "id": "train_06",
+        "group_id": "train_geom_06",
+        "geometry_sha256": "6fca1e0c5ea38e71a909d241b6ff4a4789a5c0497ee1d47e38a21f29595af8c4",
+        "nodes": 12,
+        "edges": 58,
+        "start": 0,
+        "end": 11
+      },
+      {
+        "id": "train_07",
+        "group_id": "train_geom_07",
+        "geometry_sha256": "3170cfcf0cda52513fcfd06108cb88e700d80f518fd0c72d616b7f9b7c67984e",
+        "nodes": 12,
+        "edges": 58,
+        "start": 0,
+        "end": 11
+      },
+      {
+        "id": "train_08",
+        "group_id": "train_geom_08",
+        "geometry_sha256": "934e76b0f6448961bdd9ea17cb71ec6ebbf40ce5624d99a0c4cb0ec52fe29e06",
+        "nodes": 10,
+        "edges": 42,
+        "start": 0,
+        "end": 9
+      },
+      {
+        "id": "train_09",
+        "group_id": "train_geom_09",
+        "geometry_sha256": "95b29fe2aab38ff1e64228489cd9705754fbdf8fa36fcc8afec9967deb599f12",
+        "nodes": 10,
+        "edges": 42,
+        "start": 0,
+        "end": 9
+      },
+      {
+        "id": "train_10",
+        "group_id": "train_geom_10",
+        "geometry_sha256": "a2a184831fe0445acca03eec99a1c6438d7be788ac7b50d4a11d3fb94d086ecd",
+        "nodes": 15,
+        "edges": 76,
+        "start": 0,
+        "end": 14
+      },
+      {
+        "id": "train_11",
+        "group_id": "train_geom_11",
+        "geometry_sha256": "0d0d095b4dc5f37bee9bc491a41c11bc1a22aacc00443eb85e03fc453f24fcf1",
+        "nodes": 8,
+        "edges": 24,
+        "start": 0,
+        "end": 7
+      },
+      {
+        "id": "train_12",
+        "group_id": "train_geom_12",
+        "geometry_sha256": "ebeb9e73f491678dfbecd325b65ca2f7d86216d67fea89ac58cfc50ae7951e80",
+        "nodes": 11,
+        "edges": 42,
+        "start": 0,
+        "end": 10
+      },
+      {
+        "id": "train_13",
+        "group_id": "train_geom_13",
+        "geometry_sha256": "2786a36d4155e43cc8ab30a752005cc94324f20ea62ab6204c40a024bda86931",
+        "nodes": 11,
+        "edges": 42,
+        "start": 0,
+        "end": 10
+      },
+      {
+        "id": "train_14",
+        "group_id": "train_geom_14",
+        "geometry_sha256": "507c29e4cd80cea63d45728abbbd385bd8bb82b67f8f4650b79db811dcf6f410",
+        "nodes": 11,
+        "edges": 42,
+        "start": 0,
+        "end": 10
+      },
+      {
+        "id": "train_15",
+        "group_id": "train_geom_15",
+        "geometry_sha256": "dc19241f1f7136ebbfa62c95ce02c0863a1beb533f6b77d4c18d77aa840fa31b",
+        "nodes": 11,
+        "edges": 42,
+        "start": 0,
+        "end": 10
+      },
+      {
+        "id": "train_16",
+        "group_id": "train_geom_16",
+        "geometry_sha256": "6e9525fae5d14c3a0cbf638543c8f25f7c3d4d222cab5317eb29db8c48657161",
+        "nodes": 15,
+        "edges": 68,
+        "start": 0,
+        "end": 14
+      },
+      {
+        "id": "train_17",
+        "group_id": "train_geom_17",
+        "geometry_sha256": "9507234910b5bb363ae28616b1217d9d1cf14ca094ff15887ce4dfe564ef573d",
+        "nodes": 15,
+        "edges": 68,
+        "start": 0,
+        "end": 14
+      },
+      {
+        "id": "train_18",
+        "group_id": "train_geom_18",
+        "geometry_sha256": "f23e5cc1c7537c0290d11a147ecdf29d2c55efdaf76e31a1a9c429ee93e4bbb6",
+        "nodes": 14,
+        "edges": 60,
+        "start": 0,
+        "end": 13
+      },
+      {
+        "id": "train_19",
+        "group_id": "train_geom_19",
+        "geometry_sha256": "d15a35096dc2e4bd0069fd732628a8fdfed3be276b0a1c20cd382dc0b1536364",
+        "nodes": 14,
+        "edges": 60,
+        "start": 0,
+        "end": 13
+      },
+      {
+        "id": "train_20",
+        "group_id": "train_geom_20",
+        "geometry_sha256": "edee1f018723e49d15e35edd4ac68a886fec36330814172742459e2ab58e2c92",
+        "nodes": 18,
+        "edges": 78,
+        "start": 0,
+        "end": 17
+      }
+    ]
+  },
+  "validation": {
+    "file_name": "pa_hgts_validation.json",
+    "file_sha256": "65066c365b84bad978153247d68d515c035ccd02bef40576affbb30f60865fbc",
+    "instances": [
+      {
+        "id": "val_01",
+        "group_id": "val_geom_01",
+        "geometry_sha256": "2d71191c1118cab9a38e9ab8b46011f643f2afa5f2c542e7bea118ca9bf0ade7",
+        "nodes": 20,
+        "edges": 110,
+        "start": 0,
+        "end": 19
+      },
+      {
+        "id": "val_02",
+        "group_id": "val_geom_02",
+        "geometry_sha256": "1b3cfd09bcdfb96023b25db457e9debed13f5b1649dcdaf7c6faee04efc1a650",
+        "nodes": 20,
+        "edges": 110,
+        "start": 0,
+        "end": 19
+      },
+      {
+        "id": "val_03",
+        "group_id": "val_geom_03",
+        "geometry_sha256": "74b72d49cd7a60b65b41ad265bb2bc5adefd0c787b3dcbea4db67fd522cd546b",
+        "nodes": 25,
+        "edges": 144,
+        "start": 0,
+        "end": 24
+      },
+      {
+        "id": "val_04",
+        "group_id": "val_geom_04",
+        "geometry_sha256": "a36b21cd5f3c42d7a286669a1ca4f0eda52f830f6158ac6899440d4f2142ae1c",
+        "nodes": 19,
+        "edges": 94,
+        "start": 0,
+        "end": 18
+      },
+      {
+        "id": "val_05",
+        "group_id": "val_geom_05",
+        "geometry_sha256": "c63b404468b7b59c12348f0baccb878611bcbaec895354ef2b731e0b1ebc142c",
+        "nodes": 19,
+        "edges": 94,
+        "start": 0,
+        "end": 18
+      },
+      {
+        "id": "val_06",
+        "group_id": "val_geom_06",
+        "geometry_sha256": "90bf4eda3f4cb486e3cf356260d1aa702fa05b84240a3ce35ba8ee27c55a2ef9",
+        "nodes": 24,
+        "edges": 128,
+        "start": 0,
+        "end": 23
+      },
+      {
+        "id": "val_07",
+        "group_id": "val_geom_07",
+        "geometry_sha256": "e88706329ed05d9918419f8f9c28cf33a428bbd33998a8d6daff9d517a99bf46",
+        "nodes": 18,
+        "edges": 78,
+        "start": 0,
+        "end": 17
+      },
+      {
+        "id": "val_08",
+        "group_id": "val_geom_08",
+        "geometry_sha256": "37bea6192c0745db4d182236e2e4096923793d3a7d17d5211b86cfcbe3e7ed7f",
+        "nodes": 23,
+        "edges": 112,
+        "start": 0,
+        "end": 22
+      }
+    ]
+  },
+  "separation": "Exact polygon groups and supplied group_id values are disjoint; no test data are read"
+}

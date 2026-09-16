@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    "Release version metadata, duplicate README, archive layout and saved reference paths are internally consistent",
+    "Source-data hashes and row counts match the manifest",
+    "Layerwise table has 105 complete five-parameter conditions x 10 layers, source-row lineage and condition metadata",
+    "TC-DSFNet Eq. (2) adapters implement gamma*c+beta and initialize at identity",
+    "TC-DSFNet Eq. (6) trend loss uses one global mean over all retained stable relationships",
+    "PA-LCCS separates duplicate removal from epsilon_L short-segment screening and preserves path endpoints",
+    "100-case path evaluation set parses and spans families/scales/grid phases",
+    "Archived v1.4.4 grouped process folds are version-labelled and have isolated groups, complete test coverage and one recorded tested environment",
+    "PA-HGTS compact training-reference checkpoint loads and has disjoint 20/8 training-validation provenance with a positive selected epoch",
+    "Six-method path benchmark example exports aligned per-instance feasibility, objective components and statistics",
+    "Regenerated TC-DSFNet executable example is explicitly tied to the current implementation version",
+    "Saved PA-LCCS example satisfies endpoint, regularity and curvature checks",
+    "Saved HELS-DP example has complete component coverage and backtracking"
+  ]
+}

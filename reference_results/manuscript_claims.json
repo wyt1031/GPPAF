@@ -1,0 +1,35 @@
+{
+  "source_document": {
+    "title": "GPPAF: Geometry-Driven Process\u2013Path Co-Design and Automation for Wire Arc Additive Manufacturing of Multi-Hole Components",
+    "sha256": "01c967c44d28fe4c9c48359c31cf25bb57a7638dfeeb7a4905683c7964c64f12"
+  },
+  "figure7_process_design": {
+    "protocol": "five-fold cross-validation grouped by process condition; common Best-of-M normalized parameter error",
+    "tc_dsfnet_single_percent": 2.82,
+    "tc_dsfnet_multi_percent": 6.59,
+    "relative_reduction_vs_best_comparison_percent": 24.2,
+    "candidate_count_M": 256,
+    "candidate_count_scope": "release evaluation for generative methods; M is the candidate count in manuscript Eq. (9)"
+  },
+  "figure10_path_planning": {
+    "test_instances": 100,
+    "variation": [
+      "cross-sectional shape",
+      "number of points",
+      "grid phase"
+    ],
+    "methods": [
+      "NN",
+      "Constrained ACO",
+      "G-beam",
+      "P-beam",
+      "R-GLS",
+      "PA-HGTS"
+    ],
+    "pa_hgts_reported_feasible_success_percent": 100.0
+  },
+  "overall_path_result": {
+    "reported_effective_fill_rate_percent": 98.2
+  },
+  "use": "Publication-reference metadata for reviewer alignment. Executable verification results are reported alongside these manuscript values."
+}

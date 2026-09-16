@@ -1,0 +1,46 @@
+{
+  "process": {
+    "single": [
+      [
+        79.72240447998047,
+        26.018604278564453,
+        2.989403247833252,
+        2.5332682132720947
+      ]
+    ],
+    "multi": [
+      [
+        98.7451171875,
+        22.300949096679688,
+        3.74314022064209,
+        1.424686312675476,
+        76.74569702148438
+      ]
+    ]
+  },
+  "path_status": "feasible",
+  "path_reason": "",
+  "smoothing_status": "smoothed",
+  "smoothing_corners": [
+    {
+      "index": 2,
+      "status": "smoothed",
+      "objective": 1.5124532780190354,
+      "deviation_upper": 1.8808194907646152
+    },
+    {
+      "index": 4,
+      "status": "smoothed",
+      "objective": 1.5124532780154742,
+      "deviation_upper": 1.8808193705656853
+    },
+    {
+      "index": 6,
+      "status": "smoothed",
+      "objective": 1.5124532780207178,
+      "deviation_upper": 1.8808195470292477
+    }
+  ],
+  "layer_status": "feasible",
+  "elapsed_seconds": 0.705952449000506
+}

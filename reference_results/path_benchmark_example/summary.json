@@ -1,0 +1,169 @@
+{
+  "summary": {
+    "NN": {
+      "total_instances": 8,
+      "feasible_instances": 5,
+      "success_rate": 0.625,
+      "mean_penalized_objective": 375.927470739032,
+      "mean_path_length": 11.731370849898477,
+      "mean_turn_metric": 0.2726236263736264,
+      "mean_boundary_deviation": 0.0,
+      "mean_spacing_deviation": 17.928427124746186,
+      "mean_heat_accumulation": 36.65134246278797,
+      "mean_coverage": 0.36055241901869295,
+      "total_seconds": 0.04095584600008806
+    },
+    "ACO": {
+      "total_instances": 8,
+      "feasible_instances": 6,
+      "success_rate": 0.75,
+      "mean_penalized_objective": 251.0847486942289,
+      "mean_path_length": 10.67851130197758,
+      "mean_turn_metric": 0.27474284984448427,
+      "mean_boundary_deviation": 0.0,
+      "mean_spacing_deviation": 16.362944921610612,
+      "mean_heat_accumulation": 28.755529767276403,
+      "mean_coverage": 0.35735055423811746,
+      "total_seconds": 1.0623959769991416
+    },
+    "G-beam": {
+      "total_instances": 8,
+      "feasible_instances": 7,
+      "success_rate": 0.875,
+      "mean_penalized_objective": 126.31122411871263,
+      "mean_path_length": 11.81827458019398,
+      "mean_turn_metric": 0.2703152998667008,
+      "mean_boundary_deviation": 0.0,
+      "mean_spacing_deviation": 18.259972164770662,
+      "mean_heat_accumulation": 35.04544408430964,
+      "mean_coverage": 0.36025136230078697,
+      "total_seconds": 2.01181296599907
+    },
+    "P-beam": {
+      "total_instances": 8,
+      "feasible_instances": 7,
+      "success_rate": 0.875,
+      "mean_penalized_objective": 126.31084377450095,
+      "mean_path_length": 11.81827458019398,
+      "mean_turn_metric": 0.2703152998667008,
+      "mean_boundary_deviation": 0.0,
+      "mean_spacing_deviation": 18.259972164770662,
+      "mean_heat_accumulation": 34.99328259242388,
+      "mean_coverage": 0.3602513623007869,
+      "total_seconds": 2.0120537320003677
+    },
+    "R-GLS": {
+      "total_instances": 8,
+      "feasible_instances": 7,
+      "success_rate": 0.875,
+      "mean_penalized_objective": 126.30994209533262,
+      "mean_path_length": 11.81827458019398,
+      "mean_turn_metric": 0.27477958558098653,
+      "mean_boundary_deviation": 0.0,
+      "mean_spacing_deviation": 18.259972164770662,
+      "mean_heat_accumulation": 34.77491167803479,
+      "mean_coverage": 0.35987802647676503,
+      "total_seconds": 2.199401157000466
+    },
+    "PA-HGTS": {
+      "total_instances": 8,
+      "feasible_instances": 8,
+      "success_rate": 1.0,
+      "mean_penalized_objective": 1.5220347223667463,
+      "mean_path_length": 12.61243686707646,
+      "mean_turn_metric": 0.25258491516114095,
+      "mean_boundary_deviation": 0.0,
+      "mean_spacing_deviation": 19.281092167691142,
+      "mean_heat_accumulation": 41.92707180940602,
+      "mean_coverage": 0.36128313836544323,
+      "total_seconds": 2.827980769999158
+    }
+  },
+  "paired_statistics": {
+    "NN": {
+      "mean_advantage": 374.40543601666525,
+      "advantage_ci95": [
+        124.7783375753534,
+        748.7664081377061
+      ],
+      "paired_dominance": 0.8125,
+      "p_raw": 0.0625,
+      "p_method": "exact conditional Wilcoxon sign-flip enumeration",
+      "p_holm": 0.3125
+    },
+    "ACO": {
+      "mean_advantage": 249.56271397186214,
+      "advantage_ci95": [
+        0.0005381337294557698,
+        623.887539986696
+      ],
+      "paired_dominance": 0.75,
+      "p_raw": 0.125,
+      "p_method": "exact conditional Wilcoxon sign-flip enumeration",
+      "p_holm": 0.5
+    },
+    "G-beam": {
+      "mean_advantage": 124.78918939634588,
+      "advantage_ci95": [
+        0.0005302513179329589,
+        374.3446275439277
+      ],
+      "paired_dominance": 0.6875,
+      "p_raw": 0.25,
+      "p_method": "exact conditional Wilcoxon sign-flip enumeration",
+      "p_holm": 0.75
+    },
+    "P-beam": {
+      "mean_advantage": 124.7888090521342,
+      "advantage_ci95": [
+        0.0,
+        374.34370335221047
+      ],
+      "paired_dominance": 0.6875,
+      "p_raw": 0.25,
+      "p_method": "exact conditional Wilcoxon sign-flip enumeration",
+      "p_holm": 0.75
+    },
+    "R-GLS": {
+      "mean_advantage": 124.78790737296586,
+      "advantage_ci95": [
+        0.0,
+        374.3428016730421
+      ],
+      "paired_dominance": 0.625,
+      "p_raw": 0.5,
+      "p_method": "exact conditional Wilcoxon sign-flip enumeration",
+      "p_holm": 0.75
+    }
+  },
+  "config": {
+    "instances": null,
+    "checkpoint": "reference_results/pa_hgts_training_reference/model.pt",
+    "output": "reference_results/path_benchmark_example",
+    "beam": 16,
+    "failure_penalty": 1000.0,
+    "seed": 2026,
+    "lambda_cost": 1.0,
+    "lambda_bound": 0.1,
+    "local_cost_weight": 1.0,
+    "local_rounds": 2,
+    "local_top_edges": 8,
+    "aco_ants": 6,
+    "aco_iterations": 5,
+    "aco_evaporation": 0.2
+  },
+  "environment": {
+    "python": "3.13.5",
+    "system": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "processor": "",
+    "torch": "2.10.0+cpu",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "shapely": "2.1.2",
+    "sklearn": "1.8.0",
+    "cuda": false,
+    "torch_threads": 1
+  },
+  "benchmark": "bundled executable examples",
+  "protocol": "Common geometric feasibility and final objective. Beam width shared; timings and all failures are reported."
+}
